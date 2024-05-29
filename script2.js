@@ -18,10 +18,10 @@ finalsubmit.addEventListener("click", function() {
     const totalEmissions = electricityEmissions + transportEmissions + wasteEmissions;  
     if(totalEmissions > 2){
         console.log("Good!");
-        resultp.textContent = "You will have to improve on your energy consumption.";
+        resultp.textContent = "You will have to improve on your energy consumption. You get -10 points. Better luck next time! Your total points = -10. Make 100 points for a free sapling you can grow at your home!";
     } 
     else {
         console.log("Good!");
-        resultp.textContent = "You are doing well with your energy"
+        resultp.textContent = "You are doing well with your energy. You get +10 points. Better luck next time! Your total points = 10. Make 100 points for a free sapling you can grow at your home!"
     }
 })
